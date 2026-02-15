@@ -5,7 +5,7 @@ from db import init_db
 init_db()
 
 st.set_page_config(
-    page_title="Research AI Assistant",
+    page_title="Killion",
     page_icon="🧠",
     layout="wide"
 )
@@ -29,8 +29,8 @@ body {background-color:#f5f7fb;}
 """,unsafe_allow_html=True)
 
 # ---------- TITLE ----------
-st.title("🧠 Research AI Assistant")
-st.caption("Reliable AI Research Companion")
+st.title("🧠 Udhav's Research Assistant AI ")
+st.caption("Your Reliable AI Research Companion")
 
 # ---------- SESSION ----------
 if "messages" not in st.session_state:
